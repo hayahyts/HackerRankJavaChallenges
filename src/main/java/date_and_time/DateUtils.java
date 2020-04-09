@@ -1,7 +1,8 @@
+package date_and_time;
+
 import java.util.HashMap;
 
-class Result {
-
+public class DateUtils {
     private static final int DAYS_IN_YEAR = 365;
     private static final int MONTHS_IN_YEAR = 12;
     private static final int FEB_29 = 29;
@@ -231,10 +232,5 @@ class Result {
             }
         }
         return false;
-    }
-
-    public static String findDay(int month, int day, int year) {
-        int daysDifference = calculateDurationInDays(day, month, year);
-        return getDayOfWeek(daysDifference);
     }
 }

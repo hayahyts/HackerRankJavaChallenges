@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f523cc0-af41-4e22-8b5f-604750e67ab8" name="Default Changelist" comment="" />
+    <list default="true" id="9f523cc0-af41-4e22-8b5f-604750e67ab8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRankChallenges/DateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRankChallenges/ImprovedDateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRankChallenges/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRankChallenges/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/HackerRankChallenges/DateUtilsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/HackerRankChallenges/ResultTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImprovedDateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/date_and_time/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/date_and_time/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/date_and_time/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/DateUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/date_and_time/DateUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ResultTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/date_and_time/ResultTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +33,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aCKtCpM0rp5vamLTczNZa1t7ck" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,6 +58,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="date_and_time" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -53,8 +71,8 @@
   <component name="RunManager" selected="JUnit.DateUtilsTest">
     <configuration name="DateUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRankChallenges" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DateUtilsTest" />
+      <option name="PACKAGE_NAME" value="date_and_time" />
+      <option name="MAIN_CLASS_NAME" value="date_and_time.DateUtilsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -62,8 +80,8 @@
     </configuration>
     <configuration name="DateUtilsTest.givenPrevDate_whenCalculateDaysCalled_returnNegativeDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRankChallenges" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DateUtilsTest" />
+      <option name="PACKAGE_NAME" value="date_and_time" />
+      <option name="MAIN_CLASS_NAME" value="date_and_time.DateUtilsTest" />
       <option name="METHOD_NAME" value="givenPrevDate_whenCalculateDaysCalled_returnNegativeDays" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -72,8 +90,8 @@
     </configuration>
     <configuration name="DateUtilsTest.givenPrevMonthAndYear_whenCalculateDaysCalled_returnNegativeDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRankChallenges" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DateUtilsTest" />
+      <option name="PACKAGE_NAME" value="date_and_time" />
+      <option name="MAIN_CLASS_NAME" value="date_and_time.DateUtilsTest" />
       <option name="METHOD_NAME" value="givenPrevMonthAndYear_whenCalculateDaysCalled_returnNegativeDays" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -82,8 +100,8 @@
     </configuration>
     <configuration name="DateUtilsTest.givenPrevMonth_whenCalculateDaysCalled_returnNegativeDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRankChallenges" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DateUtilsTest" />
+      <option name="PACKAGE_NAME" value="date_and_time" />
+      <option name="MAIN_CLASS_NAME" value="date_and_time.DateUtilsTest" />
       <option name="METHOD_NAME" value="givenPrevMonth_whenCalculateDaysCalled_returnNegativeDays" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -122,43 +140,58 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="275" y="42" key="#Project_Structure" timestamp="1586234459400">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="42" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1586234459400" />
-    <state width="1321" height="210" key="GridCell.Tab.0.bottom" timestamp="1586362410497">
+    <state x="478" y="242" width="410" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586467764805">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586362410497" />
-    <state width="1321" height="210" key="GridCell.Tab.0.center" timestamp="1586362410497">
+    <state x="478" y="242" width="410" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.768@0.0.1366.768" timestamp="1586467764805" />
+    <state width="1321" height="210" key="GridCell.Tab.0.bottom" timestamp="1586467828513">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586362410497" />
-    <state width="1321" height="210" key="GridCell.Tab.0.left" timestamp="1586362410497">
+    <state width="1321" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586467828513" />
+    <state width="1321" height="210" key="GridCell.Tab.0.center" timestamp="1586467828513">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586362410497" />
-    <state width="1321" height="210" key="GridCell.Tab.0.right" timestamp="1586362410497">
+    <state width="1321" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586467828513" />
+    <state width="1321" height="210" key="GridCell.Tab.0.left" timestamp="1586467828513">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586362410497" />
-    <state width="1321" height="237" key="GridCell.Tab.1.bottom" timestamp="1586361601358">
+    <state width="1321" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586467828513" />
+    <state width="1321" height="210" key="GridCell.Tab.0.right" timestamp="1586467828513">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586361601358" />
-    <state width="1321" height="237" key="GridCell.Tab.1.center" timestamp="1586361601358">
+    <state width="1321" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586467828513" />
+    <state width="1321" height="237" key="GridCell.Tab.1.bottom" timestamp="1586363663590">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1586361601358" />
-    <state width="1321" height="237" key="GridCell.Tab.1.left" timestamp="1586361601358">
+    <state width="1321" height="237" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586363663590" />
+    <state width="1321" height="237" key="GridCell.Tab.1.center" timestamp="1586363663590">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1586361601358" />
-    <state width="1321" height="237" key="GridCell.Tab.1.right" timestamp="1586361601358">
+    <state width="1321" height="237" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1586363663590" />
+    <state width="1321" height="237" key="GridCell.Tab.1.left" timestamp="1586363663590">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1586361601358" />
+    <state width="1321" height="237" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1586363663590" />
+    <state width="1321" height="237" key="GridCell.Tab.1.right" timestamp="1586363663590">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="237" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1586363663590" />
     <state x="504" y="318" key="ReplaceDuplicatesPrompt" timestamp="1586244167244">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -196,164 +229,64 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/DateUtils.java</url>
-          <line>113</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/DateUtils.java</url>
-          <line>110</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/DateUtils.java</url>
-          <line>106</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/DateUtils.java</url>
-          <line>127</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/DateUtils.java</url>
-          <line>129</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/DateUtils.java</url>
-          <line>124</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/DateUtilsTest.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/DateUtils.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/DateUtils.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/DateUtils.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/DateUtils.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/DateUtils.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/DateUtils.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/DateUtilsTest.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/DateUtilsTest.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/DateUtilsTest.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/DateUtilsTest.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ImprovedDateUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/date_and_time/DateUtils.java</url>
           <line>165</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ImprovedDateUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/date_and_time/DateUtils.java</url>
           <line>228</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ImprovedDateUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/date_and_time/DateUtils.java</url>
           <line>226</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ImprovedDateUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/date_and_time/DateUtils.java</url>
           <line>231</line>
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/DateUtilsTest.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ImprovedDateUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/date_and_time/DateUtils.java</url>
           <line>97</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ImprovedDateUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/date_and_time/DateUtils.java</url>
           <line>68</line>
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/DateUtilsTest.java</url>
-          <line>92</line>
-          <option name="timeStamp" value="114" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ImprovedDateUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/date_and_time/DateUtils.java</url>
           <line>108</line>
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ImprovedDateUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/date_and_time/DateUtils.java</url>
           <line>110</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ImprovedDateUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/date_and_time/DateUtils.java</url>
           <line>113</line>
           <option name="timeStamp" value="117" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ImprovedDateUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/date_and_time/DateUtils.java</url>
           <line>141</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ImprovedDateUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/date_and_time/DateUtils.java</url>
           <line>153</line>
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ImprovedDateUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/date_and_time/DateUtils.java</url>
           <line>180</line>
           <option name="timeStamp" value="120" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/DateUtilsTest.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="121" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
