@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f523cc0-af41-4e22-8b5f-604750e67ab8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/string_compare/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/substring/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/substring/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string_reverse/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string_tokens/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string_tokens/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +61,13 @@
       <recent name="C:\Users\Solomon\IdeaProjects\HackerRankChallenges\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string_tokens.Solution" />
+  <component name="RunManager" selected="Application.Solution (3)">
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="substring.Solution" />
       <module name="HackerRankChallenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string_tokens.*" />
+          <option name="PATTERN" value="substring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="substring.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string_reverse.Solution" />
       <module name="HackerRankChallenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="substring.*" />
+          <option name="PATTERN" value="string_reverse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.SolutionTest.givenString_whenSubstringCalled_printSubstring" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="JUnit.SolutionTest.givenString_whenTokenizeCalled_printTokensToScreen" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -181,38 +178,38 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="478" y="242" width="410" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.768@0.0.1366.768" timestamp="1586467764805" />
-    <state width="1321" height="210" key="GridCell.Tab.0.bottom" timestamp="1586527658755">
+    <state width="1321" height="210" key="GridCell.Tab.0.bottom" timestamp="1586529339979">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586527658755" />
-    <state width="1321" height="210" key="GridCell.Tab.0.center" timestamp="1586527658755">
+    <state width="1321" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586529339979" />
+    <state width="1321" height="210" key="GridCell.Tab.0.center" timestamp="1586529339979">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586527658755" />
-    <state width="1321" height="210" key="GridCell.Tab.0.left" timestamp="1586527658755">
+    <state width="1321" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586529339979" />
+    <state width="1321" height="210" key="GridCell.Tab.0.left" timestamp="1586529339979">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586527658755" />
-    <state width="1321" height="210" key="GridCell.Tab.0.right" timestamp="1586527658755">
+    <state width="1321" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586529339979" />
+    <state width="1321" height="210" key="GridCell.Tab.0.right" timestamp="1586529339979">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586527658755" />
-    <state width="1321" height="237" key="GridCell.Tab.1.bottom" timestamp="1586512063065">
+    <state width="1321" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586529339979" />
+    <state width="1321" height="237" key="GridCell.Tab.1.bottom" timestamp="1586529047949">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586512063065" />
-    <state width="1321" height="237" key="GridCell.Tab.1.center" timestamp="1586512063060">
+    <state width="1321" height="237" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586529047949" />
+    <state width="1321" height="237" key="GridCell.Tab.1.center" timestamp="1586529047949">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1586512063060" />
-    <state width="1321" height="237" key="GridCell.Tab.1.left" timestamp="1586512063060">
+    <state width="1321" height="237" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1586529047949" />
+    <state width="1321" height="237" key="GridCell.Tab.1.left" timestamp="1586529047949">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1586512063060" />
-    <state width="1321" height="237" key="GridCell.Tab.1.right" timestamp="1586512063060">
+    <state width="1321" height="237" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1586529047949" />
+    <state width="1321" height="237" key="GridCell.Tab.1.right" timestamp="1586529047949">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1586512063060" />
+    <state width="1321" height="237" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1586529047949" />
     <state x="504" y="318" key="ReplaceDuplicatesPrompt" timestamp="1586244167244">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -342,6 +339,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/string_compare/Solution.java</url>
           <line>15</line>
           <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/string_reverse/Solution.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/string_reverse/Solution.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="135" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
