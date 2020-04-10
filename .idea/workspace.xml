@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f523cc0-af41-4e22-8b5f-604750e67ab8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/currency_formatter/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/currency_formatter/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string_tokens/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/string_tokens/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +39,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last.edited.regexp" value="https://www.nasa.gov" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -46,6 +47,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="string_tokens" />
       <recent name="currency_formatter" />
       <recent name="" />
     </key>
@@ -59,7 +61,20 @@
       <recent name="C:\Users\Solomon\IdeaProjects\HackerRankChallenges\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.givenNumber_whenFormatCurrencyCalled_writeFormattedTextToConsole">
+  <component name="RunManager" selected="JUnit.SolutionTest.givenString_whenTokenizeCalled_printTokensToScreen">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string_tokens.Solution" />
+      <module name="HackerRankChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string_tokens.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="currency_formatter.Solution" />
       <module name="HackerRankChallenges" />
@@ -82,25 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateUtilsTest.givenPrevMonth_whenCalculateDaysCalled_returnNegativeDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRankChallenges" />
-      <option name="PACKAGE_NAME" value="date_and_time" />
-      <option name="MAIN_CLASS_NAME" value="date_and_time.DateUtilsTest" />
-      <option name="METHOD_NAME" value="givenPrevMonth_whenCalculateDaysCalled_returnNegativeDays" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImprovedDateUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRankChallenges" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ImprovedDateUtilsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SolutionTest.givenNumber_whenFormatCurrencyCalled_writeFormattedTextToConsole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRankChallenges" />
       <extension name="coverage">
@@ -117,13 +113,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest.givenString_whenTokenizeCalled_printTokensToScreen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerRankChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string_tokens.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string_tokens" />
+      <option name="MAIN_CLASS_NAME" value="string_tokens.SolutionTest" />
+      <option name="METHOD_NAME" value="givenString_whenTokenizeCalled_printTokensToScreen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.givenString_whenTokenizeCalled_printTokensToScreen" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="JUnit.SolutionTest.givenNumber_whenFormatCurrencyCalled_writeFormattedTextToConsole" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.DateUtilsTest" />
-        <item itemvalue="JUnit.ImprovedDateUtilsTest" />
-        <item itemvalue="JUnit.DateUtilsTest.givenPrevMonth_whenCalculateDaysCalled_returnNegativeDays" />
       </list>
     </recent_temporary>
   </component>
@@ -162,38 +174,38 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="478" y="242" width="410" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.768@0.0.1366.768" timestamp="1586467764805" />
-    <state width="1321" height="237" key="GridCell.Tab.0.bottom" timestamp="1586497478486">
+    <state width="1321" height="210" key="GridCell.Tab.0.bottom" timestamp="1586503896057">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586497478486" />
-    <state width="1321" height="237" key="GridCell.Tab.0.center" timestamp="1586497478486">
+    <state width="1321" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586503896057" />
+    <state width="1321" height="210" key="GridCell.Tab.0.center" timestamp="1586503896057">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586497478486" />
-    <state width="1321" height="237" key="GridCell.Tab.0.left" timestamp="1586497478485">
+    <state width="1321" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586503896057" />
+    <state width="1321" height="210" key="GridCell.Tab.0.left" timestamp="1586503896057">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586497478485" />
-    <state width="1321" height="237" key="GridCell.Tab.0.right" timestamp="1586497478486">
+    <state width="1321" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586503896057" />
+    <state width="1321" height="210" key="GridCell.Tab.0.right" timestamp="1586503896057">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586497478486" />
-    <state width="1321" height="237" key="GridCell.Tab.1.bottom" timestamp="1586497479569">
+    <state width="1321" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586503896057" />
+    <state width="1321" height="237" key="GridCell.Tab.1.bottom" timestamp="1586503571748">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586497479569" />
-    <state width="1321" height="237" key="GridCell.Tab.1.center" timestamp="1586497479569">
+    <state width="1321" height="237" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586503571748" />
+    <state width="1321" height="237" key="GridCell.Tab.1.center" timestamp="1586503571748">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1586497479569" />
-    <state width="1321" height="237" key="GridCell.Tab.1.left" timestamp="1586497479569">
+    <state width="1321" height="237" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1586503571748" />
+    <state width="1321" height="237" key="GridCell.Tab.1.left" timestamp="1586503571748">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1586497479569" />
-    <state width="1321" height="237" key="GridCell.Tab.1.right" timestamp="1586497479569">
+    <state width="1321" height="237" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1586503571748" />
+    <state width="1321" height="237" key="GridCell.Tab.1.right" timestamp="1586503571748">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1586497479569" />
+    <state width="1321" height="237" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1586503571748" />
     <state x="504" y="318" key="ReplaceDuplicatesPrompt" timestamp="1586244167244">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -210,10 +222,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="388" y="277" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.768@0.0.1366.768" timestamp="1586491998438" />
-    <state x="454" y="87" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586490075549">
+    <state x="454" y="87" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586502984575">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="454" y="87" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768@0.0.1366.768" timestamp="1586490075549" />
+    <state x="454" y="87" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768@0.0.1366.768" timestamp="1586502984575" />
     <state x="413" y="139" width="540" height="496" key="extract.method.dialog" timestamp="1586244162085">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -292,8 +304,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/currency_formatter/SolutionTest.java</url>
-          <line>31</line>
+          <line>35</line>
           <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/string_tokens/SolutionTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="122" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
