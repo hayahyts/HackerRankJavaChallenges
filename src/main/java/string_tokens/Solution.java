@@ -1,6 +1,8 @@
 package string_tokens;
 
+import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class Solution {
 
@@ -12,11 +14,29 @@ public class Solution {
     }
 
     static void tokenize(String input) {
+        if (!input.matches("[A-Za-z !,?._'@]+")) {
+            System.out.println(0);
+            return;
+        }
+
         String[] tokens = input.split("[ !,?._'@]+");
         System.out.println(tokens.length);
+
+        ArrayList<String> finalTokens = new ArrayList<>();
         for (String token : tokens) {
+            if (isEnglishToken(token)) {
+                finalTokens.add(token);
+            }
+        }
+
+        for (String token : finalTokens) {
             System.out.println(token);
         }
+    }
+
+    static boolean isEnglishToken(String token) {
+        String englishWordRegex = "[A-Za-z]+";
+        return Pattern.matches(englishWordRegex, token);
     }
 }
 

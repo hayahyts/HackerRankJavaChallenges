@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f523cc0-af41-4e22-8b5f-604750e67ab8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/string_tokens/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/string_tokens/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string_compare/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/substring/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/substring/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/string_tokens/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string_tokens/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="substring" />
       <recent name="string_tokens" />
       <recent name="currency_formatter" />
       <recent name="" />
@@ -61,7 +64,7 @@
       <recent name="C:\Users\Solomon\IdeaProjects\HackerRankChallenges\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.givenString_whenTokenizeCalled_printTokensToScreen">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string_tokens.Solution" />
       <module name="HackerRankChallenges" />
@@ -75,12 +78,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="substring.Solution" />
+      <module name="HackerRankChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="substring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="currency_formatter.Solution" />
+      <option name="MAIN_CLASS_NAME" value="string_compare.Solution" />
       <module name="HackerRankChallenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="currency_formatter.*" />
+          <option name="PATTERN" value="string_compare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,26 +104,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRankChallenges" />
-      <option name="PACKAGE_NAME" value="date_and_time" />
-      <option name="MAIN_CLASS_NAME" value="date_and_time.DateUtilsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.givenNumber_whenFormatCurrencyCalled_writeFormattedTextToConsole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.givenString_whenSubstringCalled_printSubstring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRankChallenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="currency_formatter.*" />
+          <option name="PATTERN" value="substring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="currency_formatter" />
-      <option name="MAIN_CLASS_NAME" value="currency_formatter.SolutionTest" />
-      <option name="METHOD_NAME" value="givenNumber_whenFormatCurrencyCalled_writeFormattedTextToConsole" />
+      <option name="PACKAGE_NAME" value="substring" />
+      <option name="MAIN_CLASS_NAME" value="substring.SolutionTest" />
+      <option name="METHOD_NAME" value="givenString_whenSubstringCalled_printSubstring" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="JUnit.SolutionTest.givenString_whenSubstringCalled_printSubstring" />
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="JUnit.SolutionTest.givenString_whenTokenizeCalled_printTokensToScreen" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="JUnit.SolutionTest.givenNumber_whenFormatCurrencyCalled_writeFormattedTextToConsole" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="JUnit.DateUtilsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -174,38 +181,38 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="478" y="242" width="410" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.768@0.0.1366.768" timestamp="1586467764805" />
-    <state width="1321" height="210" key="GridCell.Tab.0.bottom" timestamp="1586503896057">
+    <state width="1321" height="210" key="GridCell.Tab.0.bottom" timestamp="1586527658755">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586503896057" />
-    <state width="1321" height="210" key="GridCell.Tab.0.center" timestamp="1586503896057">
+    <state width="1321" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586527658755" />
+    <state width="1321" height="210" key="GridCell.Tab.0.center" timestamp="1586527658755">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586503896057" />
-    <state width="1321" height="210" key="GridCell.Tab.0.left" timestamp="1586503896057">
+    <state width="1321" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586527658755" />
+    <state width="1321" height="210" key="GridCell.Tab.0.left" timestamp="1586527658755">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586503896057" />
-    <state width="1321" height="210" key="GridCell.Tab.0.right" timestamp="1586503896057">
+    <state width="1321" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586527658755" />
+    <state width="1321" height="210" key="GridCell.Tab.0.right" timestamp="1586527658755">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586503896057" />
-    <state width="1321" height="237" key="GridCell.Tab.1.bottom" timestamp="1586503571748">
+    <state width="1321" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586527658755" />
+    <state width="1321" height="237" key="GridCell.Tab.1.bottom" timestamp="1586512063065">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586503571748" />
-    <state width="1321" height="237" key="GridCell.Tab.1.center" timestamp="1586503571748">
+    <state width="1321" height="237" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586512063065" />
+    <state width="1321" height="237" key="GridCell.Tab.1.center" timestamp="1586512063060">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1586503571748" />
-    <state width="1321" height="237" key="GridCell.Tab.1.left" timestamp="1586503571748">
+    <state width="1321" height="237" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1586512063060" />
+    <state width="1321" height="237" key="GridCell.Tab.1.left" timestamp="1586512063060">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1586503571748" />
-    <state width="1321" height="237" key="GridCell.Tab.1.right" timestamp="1586503571748">
+    <state width="1321" height="237" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1586512063060" />
+    <state width="1321" height="237" key="GridCell.Tab.1.right" timestamp="1586512063060">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1586503571748" />
+    <state width="1321" height="237" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1586512063060" />
     <state x="504" y="318" key="ReplaceDuplicatesPrompt" timestamp="1586244167244">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -222,22 +229,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="388" y="277" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.768@0.0.1366.768" timestamp="1586491998438" />
-    <state x="454" y="87" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586502984575">
+    <state x="454" y="87" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586506178857">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="454" y="87" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768@0.0.1366.768" timestamp="1586502984575" />
-    <state x="413" y="139" width="540" height="496" key="extract.method.dialog" timestamp="1586244162085">
+    <state x="454" y="87" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768@0.0.1366.768" timestamp="1586506178857" />
+    <state x="413" y="139" width="542" height="496" key="extract.method.dialog" timestamp="1586508064110">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="413" y="139" width="540" height="496" key="extract.method.dialog/0.0.1366.768@0.0.1366.768" timestamp="1586244162085" />
+    <state x="413" y="139" width="542" height="496" key="extract.method.dialog/0.0.1366.768@0.0.1366.768" timestamp="1586508064110" />
     <state x="65" y="4" key="new project wizard" timestamp="1586238502675">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="65" y="4" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1586238502675" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586270168675">
+    <state x="339" y="172" key="run.anything.popup" timestamp="1586507679074">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1586270168675" />
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1586507679074" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586509504674">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1586509504674" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -311,6 +322,26 @@
           <url>file://$PROJECT_DIR$/src/test/string_tokens/SolutionTest.java</url>
           <line>44</line>
           <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/substring/SolutionTest.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/substring/Solution.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/substring/Solution.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/string_compare/Solution.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="129" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
