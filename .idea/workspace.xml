@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f523cc0-af41-4e22-8b5f-604750e67ab8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/anagrams/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/misc/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/misc/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/misc/PrintUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/misc/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/misc/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/misc/InsertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +61,7 @@
       <recent name="C:\Users\Solomon\IdeaProjects\HackerRankChallenges\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertionSort">
+  <component name="RunManager" selected="Application.BubbleSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="misc.BubbleSort" />
       <module name="HackerRankChallenges" />
@@ -133,8 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (3)" />
@@ -180,22 +176,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="335" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.768@0.0.1366.768" timestamp="1586540543833" />
-    <state width="1321" height="210" key="GridCell.Tab.0.bottom" timestamp="1586554646129">
+    <state x="92" y="92" width="1182" height="584" key="DiffContextDialog" timestamp="1586624179988">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586554646129" />
-    <state width="1321" height="210" key="GridCell.Tab.0.center" timestamp="1586554646129">
+    <state x="92" y="92" width="1182" height="584" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1586624179988" />
+    <state width="1321" height="210" key="GridCell.Tab.0.bottom" timestamp="1586623578251">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586554646129" />
-    <state width="1321" height="210" key="GridCell.Tab.0.left" timestamp="1586554646129">
+    <state width="1321" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586623578251" />
+    <state width="1321" height="210" key="GridCell.Tab.0.center" timestamp="1586623578250">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586554646129" />
-    <state width="1321" height="210" key="GridCell.Tab.0.right" timestamp="1586554646129">
+    <state width="1321" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586623578250" />
+    <state width="1321" height="210" key="GridCell.Tab.0.left" timestamp="1586623578250">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586554646129" />
+    <state width="1321" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586623578250" />
+    <state width="1321" height="210" key="GridCell.Tab.0.right" timestamp="1586623578251">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1321" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586623578251" />
     <state width="1321" height="237" key="GridCell.Tab.1.bottom" timestamp="1586544822311">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -244,10 +244,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1586507679074" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586530317111">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586588755619">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1586530317111" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1586588755619" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

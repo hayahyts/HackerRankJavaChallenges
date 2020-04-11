@@ -14,7 +14,6 @@ public class InsertionSort {
             // and the key is still less than the element at j
             // we keep pushing the elements to the right
             while (j >= 0 && key.compareTo(arr[j]) < 0) {
-
                 String temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
