@@ -20,7 +20,6 @@ public class Solution {
         }
 
         String[] tokens = input.split("[ !,?._'@]+");
-        System.out.println(tokens.length);
 
         ArrayList<String> finalTokens = new ArrayList<>();
         for (String token : tokens) {
@@ -29,6 +28,7 @@ public class Solution {
             }
         }
 
+        System.out.println(finalTokens.size());
         for (String token : finalTokens) {
             System.out.println(token);
         }
@@ -45,8 +45,8 @@ public class Solution {
     ----------
     .       - Any character Except a New Line
     \d      - Digit(0-9)
-    \D      - Not a Digit(0-9)
-    \w      - Word Character (a-z, A-Z, 0-9, _)
+    \D      - Not a Digit[0-9]
+    \w      - Word Character [a-zA-Z0-9_]
     \W      - Not a Word Character
     \s      - Space (space, tab, new line)
     \S      - Not a Space

@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f523cc0-af41-4e22-8b5f-604750e67ab8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/duplicate_word/DuplicateWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern_syntax_checker/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/regex/MyRegex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/regex/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings_introduction/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/valid_username_checker/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/valid_username_checker/UsernameValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/misc/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/misc/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/anagrams/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/anagrams/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/misc/PrintUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/misc/PrintUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/string_tokens/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string_tokens/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -38,7 +48,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last.edited.regexp" value="https://www.nasa.gov" />
+    <property name="last.edited.regexp" value="H" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -61,39 +71,13 @@
       <recent name="C:\Users\Solomon\IdeaProjects\HackerRankChallenges\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="misc.BubbleSort" />
+  <component name="RunManager" selected="Application.Solution (3)">
+    <configuration name="DuplicateWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="duplicate_word.DuplicateWords" />
       <module name="HackerRankChallenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="misc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="misc.InsertionSort" />
-      <module name="HackerRankChallenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="misc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="misc.SelectionSort" />
-      <module name="HackerRankChallenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="misc.*" />
+          <option name="PATTERN" value="duplicate_word.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +98,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string_reverse.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="regex.Solution" />
       <module name="HackerRankChallenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string_reverse.*" />
+          <option name="PATTERN" value="regex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings_introduction.Solution" />
+      <module name="HackerRankChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings_introduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string_tokens.Solution" />
+      <module name="HackerRankChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string_tokens.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.DuplicateWords" />
+        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -180,38 +190,38 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="92" y="92" width="1182" height="584" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1586624179988" />
-    <state width="1321" height="210" key="GridCell.Tab.0.bottom" timestamp="1586623578251">
+    <state width="1321" height="210" key="GridCell.Tab.0.bottom" timestamp="1586698401074">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586623578251" />
-    <state width="1321" height="210" key="GridCell.Tab.0.center" timestamp="1586623578250">
+    <state width="1321" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586698401074" />
+    <state width="1321" height="210" key="GridCell.Tab.0.center" timestamp="1586698401069">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586623578250" />
-    <state width="1321" height="210" key="GridCell.Tab.0.left" timestamp="1586623578250">
+    <state width="1321" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586698401069" />
+    <state width="1321" height="210" key="GridCell.Tab.0.left" timestamp="1586698401069">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586623578250" />
-    <state width="1321" height="210" key="GridCell.Tab.0.right" timestamp="1586623578251">
+    <state width="1321" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586698401069" />
+    <state width="1321" height="210" key="GridCell.Tab.0.right" timestamp="1586698401069">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586623578251" />
-    <state width="1321" height="237" key="GridCell.Tab.1.bottom" timestamp="1586544822311">
+    <state width="1321" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586698401069" />
+    <state width="1321" height="237" key="GridCell.Tab.1.bottom" timestamp="1586696610687">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586544822311" />
-    <state width="1321" height="237" key="GridCell.Tab.1.center" timestamp="1586544822311">
+    <state width="1321" height="237" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586696610687" />
+    <state width="1321" height="237" key="GridCell.Tab.1.center" timestamp="1586696610687">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1586544822311" />
-    <state width="1321" height="237" key="GridCell.Tab.1.left" timestamp="1586544822311">
+    <state width="1321" height="237" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1586696610687" />
+    <state width="1321" height="237" key="GridCell.Tab.1.left" timestamp="1586696610687">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1586544822311" />
-    <state width="1321" height="237" key="GridCell.Tab.1.right" timestamp="1586544822311">
+    <state width="1321" height="237" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1586696610687" />
+    <state width="1321" height="237" key="GridCell.Tab.1.right" timestamp="1586696610687">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="237" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1586544822311" />
+    <state width="1321" height="237" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1586696610687" />
     <state x="504" y="318" key="ReplaceDuplicatesPrompt" timestamp="1586244167244">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -351,6 +361,41 @@
           <url>file://$PROJECT_DIR$/src/main/java/string_reverse/Solution.java</url>
           <line>20</line>
           <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/anagrams/Solution.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/string_tokens/Solution.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/string_tokens/Solution.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/string_tokens/Solution.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/regex/Solution.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/duplicate_word/DuplicateWords.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/duplicate_word/DuplicateWords.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="144" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

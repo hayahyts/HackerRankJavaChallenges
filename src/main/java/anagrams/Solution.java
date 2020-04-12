@@ -1,5 +1,7 @@
 package anagrams;
 
+import misc.PrintUtils;
+
 import java.util.Scanner;
 
 public class Solution {
@@ -11,6 +13,24 @@ public class Solution {
         return sortedA.equalsIgnoreCase(sortedB);
     }
 
+    private static String sortString(String str) {
+        char[] arr = str.toCharArray();
+        int n = arr.length;
+
+        // Bubble sort
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if ((arr[j] + "").compareToIgnoreCase((arr[j + 1] + "")) > 0) {
+                    char temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+
+        return String.copyValueOf(arr);
+    }
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
@@ -19,20 +39,5 @@ public class Solution {
         scan.close();
         boolean ret = isAnagram(a, b);
         System.out.println((ret) ? "Anagrams" : "Not Anagrams");
-    }
-
-    private static String sortString(String str) {
-        String sortedString = "";
-        for (int i = 0; i < str.length(); i++) {
-            String smallestStr = str.substring(i, i + 1);
-            for (int j = i; j < str.length(); j++) {
-                if (str.substring(j, j + 1).compareToIgnoreCase(smallestStr) < 0) {
-                    smallestStr = str.substring(j, j + 1);
-                }
-            }
-            System.out.println(sortedString);
-        }
-
-        return sortedString;
     }
 }
